@@ -1,0 +1,24 @@
+.container-fluid{
+    
+    padding: 0px;
+}
+
+.head{
+
+    padding: 30px;
+    height:max-content;
+    margin: 10px;
+    border: 1px solid black;
+}
+.innerBox{
+    border: 1px solid black;
+}
+.form{
+    text-align: right;
+}
+
+@media only screen and (max-width: 425px) {
+    .form{
+        margin-top: 26px;
+    }
+}
